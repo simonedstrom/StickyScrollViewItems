@@ -56,6 +56,11 @@ public class StickyScrollView extends ScrollView {
 		}
 	};
 
+	
+	public View getCurrentlyStickingView(){
+		return currentlyStickingView;
+	}
+	
 	public StickyScrollView(Context context) {
 		this(context, null);
 	}
